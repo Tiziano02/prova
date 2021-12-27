@@ -14,3 +14,15 @@
   font-family: 'Light';
   src: url('font/Circular Std Light.otf');
 }
+@font-face {
+  font-family: 'Black Italic';
+  src: url('font/Circular Std Black Italic.otf');
+}
+@font-face {
+  font-family: 'Book Italic';
+  src: url('font/Circular Std Book Italic.otf');
+}
+@font-face {
+  font-family: 'Bold Italic';
+  src: url('font/Circular Std Bold Italic.otf');
+}
