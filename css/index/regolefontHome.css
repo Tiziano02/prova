@@ -1,5 +1,5 @@
 .menu > a{
-  font-family: 'Light';
+  font-family: "Light";
   font-size: 1.6666667vw;
   font-weight: lighter;
   text-decoration: none;
@@ -11,7 +11,7 @@
 }
 .title_text_content{
   font-size: 6.770833333vw;
-  font-family: "Black";
+  font-family: "Black Italic";
   color: rgb(140, 207, 234);
   line-height: 0.879;
   text-align: left;
