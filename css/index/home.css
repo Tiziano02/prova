@@ -24,7 +24,7 @@ html, body { background-color: #f9f5ef !important;}
   width: 12.5vw;
   height: 4.0625vw;
   background-color: #f2eee9;
-  color: rgb(38, 37, 35);
+  /*color: rgb(38, 37, 35);*/
 }
 .img_content{
   width: 51.25vw;

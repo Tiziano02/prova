@@ -1,4 +1,8 @@
-html, body { height: 100%; margin: 0;background-color: #f8f4ee !important;}
+html, body { 
+  height: 100%; 
+  margin: 0;
+  background-color: #f8f4ee;
+}
 
 button {
   border: 0px; 
@@ -52,15 +56,11 @@ button {
 
   /*proprietà testo*/
   font-size: 1.6666667vw;/*32px*/
-  font-family: "Bold";
-  color: rgb(255, 255, 255);
+  font-family: 'Book';
+  color: #ffffff;
   
   line-height: 1.2;
   letter-spacing: 15;
-  transform: matrix( 1,0,0,1.00010310341272,0,0);
-  /*-webkit-transform: matrix( 1,0,0,1.00010310341272,0,0);
-  -ms-transform: matrix( 1,0,0,1.00010310341272,0,0);*/
-
 }
 
 
@@ -120,7 +120,9 @@ background-color: #56baa7;
   align-items: center;
 }
 .footer_text{
-  font-size: 0.78125vw;
+  font-family: 'Light';
+  color: #ffffff;
+  font-size: /*24px*/1.30208333vw;
 }
 .instagram{
 width: 1.97916667vw;
