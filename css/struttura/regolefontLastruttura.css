@@ -1,15 +1,30 @@
+.menu > a{
+  font-family: 'Light';
+  font-size: /*32px*/ 1.6666667vw;
+  /*tutte le proprietè della linea del link cancellate*/
+  text-decoration: none; 
+
+  font-weight: normal; /*grandezza del carattere*/
+  letter-spacing: normal; /*spazio fra le lettere*/
+  word-spacing: normal; /*spazio fra le parole*/
+
+  color: #ffffff;
+}
+.menu > a:hover{
+  text-decoration:underline;
+  font-family: 'Bold';
+}
 .title
 {
-  font-family: "Bold";
+  font-family: 'Bold';
   font-size: 6.9916666667vw;
   color: rgb(255, 252, 248);
   line-height: 1.2;
 }
-.room_button{
-
-  font-size: 25px;
-  font-family: 'Bold';
-  color: rgb(38, 37, 35);
+.room_button
+{
+  font-size: 1.3020833vw;
+  font-family: 'Book';
   line-height: 1.2;
   text-align: center;
 }

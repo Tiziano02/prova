@@ -36,15 +36,7 @@
 
   /*proprietà necessarie per lo script*/
   background-color: inherit; /*lo stesso del body perciò lo stesso dello sfondo*/
-  color: black; 
-
-  /*proprietà testo*/
-  /*font-size: 25px;
-  font-family: "Circular Std";
   color: rgb(38, 37, 35);
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: center;*/
 }
 .colore_button_1
 {
