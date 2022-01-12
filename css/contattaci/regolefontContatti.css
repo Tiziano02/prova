@@ -1,34 +1,32 @@
-.content{
-  /*margin-right: 45.05208333vw;*/
-  margin-top: 331px; /*143+216px18.6979166666667vw*/
-  width: 42.91666667vw; 
-  margin-left: 11.875vw;/*228px*/
-  display: flex;
-  flex-direction: column;
+.menu > a{
+  font-family: 'Light';
+  font-size: /*32px*/ 1.6666667vw;
+  /*tutte le proprietè della linea del link cancellate*/
+  text-decoration: none; 
+
+  font-weight: normal; /*grandezza del carattere*/
+  letter-spacing: normal; /*spazio fra le lettere*/
+  word-spacing: normal; /*spazio fra le parole*/
+
+  color: #262523;
 }
-
-.content_title{
-
-  /*FONT*/
+.menu > a:hover{
+  text-decoration:underline;
+  font-family: 'Bold';
+}
+.content_title
+{ 
   font-size: 6.991666667vw;
-  font-family: "Circular Std Black";
+  font-family: 'Black';
   color: rgb(139, 206, 234);
   line-height: 1.2;
-  transform: matrix( 1,0,0,1.00002681037025,0,0);
-
-  margin-bottom: 28px;/* da rivedere 3.64583333333333vw */
 }
 
 .content_text{
-
-  margin-bottom: 72px;
-  /*FONT*/
-  font-size: 19px;
-  font-family: "Circular Std Light";
+  font-size: 0.98958333vw;
+  font-family: 'Light';
   color: rgb(38, 37, 35);
   line-height:  1.895;
-  text-align:  justify !important;
-  transform: matrix( 1,0,0,1.00002681037025,0,0);
 }
 .input-field>label {
 
@@ -49,4 +47,5 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   color: rgb(38, 37, 35) !important;
   line-height:  1.895 !important;
 }
+
 

@@ -79,7 +79,9 @@ background-color: #56baa7;
 .footer{
   width: 100vw;
   height: 10.2604166667vw;
-  background: linear-gradient(to right,#26b2a7, #7ec6bb);
+  font-family: 'Light';
+  font-size: /*24px*/1.30208333vw;
+  background: linear-gradient(to right,#00baac, #6ce1c9) !important;
 }
 .footer_center
 {

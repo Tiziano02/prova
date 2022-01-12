@@ -86,9 +86,3 @@
   color: rgb(249, 245, 239);
   line-height: 1.2;
 }
-
-.footer{
-  font-family: 'Light';
-  font-size: /*24px*/1.30208333vw;
-  background: linear-gradient(to right,#00baac, #6ce1c9) !important;
-}
