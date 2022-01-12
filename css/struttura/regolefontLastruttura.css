@@ -1,0 +1,15 @@
+.title
+{
+  font-family: "Bold";
+  font-size: 6.9916666667vw;
+  color: rgb(255, 252, 248);
+  line-height: 1.2;
+}
+.room_button{
+
+  font-size: 25px;
+  font-family: 'Bold';
+  color: rgb(38, 37, 35);
+  line-height: 1.2;
+  text-align: center;
+}

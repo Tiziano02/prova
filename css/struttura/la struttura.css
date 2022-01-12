@@ -10,13 +10,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
-  /*proprietà font*/
-  font-family: "Circular Std";
-  font-weight: bold;
-  font-size: 6.9916666667vw;
-  color: rgb(255, 252, 248);
-  line-height: 1.2;
 }
 
 .room{
