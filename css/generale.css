@@ -1,13 +1,39 @@
-html, body { 
-  height: 100%; 
+html,
+body {
+  height: 100vh;
   margin: 0;
   background-color: #f8f4ee;
 }
 
 button {
-  border: 0px; 
+  border: 0px;
   padding: 0px;
   cursor: pointer;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100vw;
+  height: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  z-index: -2;
+  cursor: pointer;
+}
+
+.foto_prova {
+
+  top: 25vh;
+  bottom: 25vh;
+  left: 25vw;
+  right: 25vw;
+  width: 50vw;
+  height: 50vh;
 }
 
 .menu {
@@ -27,25 +53,30 @@ button {
   align-items: center;
   text-align: center;
 }
-.logo{
+
+.logo {
   width: 11.25vw;
 }
-.item1{
+
+.item1 {
   width: 22.795138888889vw;
 }
-.item2{
+
+.item2 {
   width: 22.795138888889vw;
 }
-.item3{
+
+.item3 {
   width: 22.795138888889vw;
 }
-.prenota_ora{
+
+.prenota_ora {
   z-index: 1;
 
   /*posizione e dimenzione */
   position: fixed;
   right: 0vw;
-  top: 0vw;  
+  top: 0vw;
   width: 20.3645833vw;
   height: 11.25vw;
   /*come viene visualizzato */
@@ -55,41 +86,46 @@ button {
   align-items: center;
 
   /*proprietà testo*/
-  font-size: 1.6666667vw;/*32px*/
+  font-size: 1.6666667vw;
+  /*32px*/
   font-family: 'Book';
   color: #ffffff;
-  
+
   line-height: 1.2;
   letter-spacing: 15;
 }
 
 
-.azzurro{
-background-color: #8bceea;  
+.azzurro {
+  background-color: #8bceea;
 }
-.giallo{
-background-color: #f5c174;  
+
+.giallo {
+  background-color: #f5c174;
 }
-.turchese{
-background-color: #56baa7;  
+
+.turchese {
+  background-color: #56baa7;
 }
 
 
 
-.footer{
+.footer {
   width: 100vw;
   height: 10.2604166667vw;
   font-family: 'Light';
-  font-size: /*24px*/1.30208333vw;
-  background: linear-gradient(to right,#00baac, #6ce1c9) !important;
+  font-size:
+    /*24px*/
+    1.30208333vw;
+  background: linear-gradient(to right, #00baac, #6ce1c9) !important;
 }
-.footer_center
-{
+
+.footer_center {
   /*posizione e dimenzione */
   position: absolute;
   left: 44.53125vw;
   width: 11.197916666667vw;
-  height:  10.2604166667vw;
+  height: 10.2604166667vw;
 
   /*come viene visualizzato*/
   display: flex;
@@ -97,11 +133,11 @@ background-color: #56baa7;
   justify-content: space-between;
   align-items: center;
 }
-.footer_left
-{
+
+.footer_left {
   position: absolute;
   left: 16.8229166667vw;
-  height:  10.2604166667vw;
+  height: 10.2604166667vw;
   width: 19.0104166667vw;
 
   display: flex;
@@ -109,8 +145,8 @@ background-color: #56baa7;
   justify-content: space-between;
   align-items: center;
 }
-.footer_right
-{
+
+.footer_right {
   position: absolute;
   right: 19.84375vw;
   height: 10.2604166667vw;
@@ -121,22 +157,28 @@ background-color: #56baa7;
   justify-content: space-between;
   align-items: center;
 }
-.footer_text{
+
+.footer_text {
   font-family: 'Light';
   color: #ffffff;
-  font-size: /*24px*/1.30208333vw;
+  font-size:
+    /*24px*/
+    1.30208333vw;
 }
-.instagram{
-width: 1.97916667vw;
-height: 1.92708333vw;
+
+.instagram {
+  width: 1.97916667vw;
+  height: 1.92708333vw;
 }
-.facebook{
-width: 1.14583333vw;
-height: 2.1875vw;
+
+.facebook {
+  width: 1.14583333vw;
+  height: 2.1875vw;
 }
-.whatsapp{
-width: 2.08333333vw;
-height: 2.08333333vw;
+
+.whatsapp {
+  width: 2.08333333vw;
+  height: 2.08333333vw;
 }
 
 /* proprietà dei collegamenti e hover

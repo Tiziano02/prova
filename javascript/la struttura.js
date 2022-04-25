@@ -11,6 +11,3 @@ function change_mosaico(number) {
 
 }
 
-function prenota() {
-    alert("hai premuto prenota ora");
-}
