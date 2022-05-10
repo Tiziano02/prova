@@ -1,8 +1,7 @@
 html,
 body {
-  height: 100%;
-  margin: 0;
-  background-color: #f8f4ee;
+  margin: 0 !important;
+  background-color: #f8f4ee !important;
 }
 
 button {

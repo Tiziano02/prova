@@ -1,86 +1,114 @@
-.menu > a{
+.menu>a {
   font-family: 'Light';
-  font-size: /*32px*/ 1.6666667vw;
+  font-size:
+    /*32px*/
+    1.6666667vw;
   /*tutte le proprietè della linea del link cancellate*/
-  text-decoration: none; 
+  text-decoration: none;
 
-  font-weight: normal; /*grandezza del carattere*/
-  letter-spacing: normal; /*spazio fra le lettere*/
-  word-spacing: normal; /*spazio fra le parole*/
+  font-weight: normal;
+  /*grandezza del carattere*/
+  letter-spacing: normal;
+  /*spazio fra le lettere*/
+  word-spacing: normal;
+  /*spazio fra le parole*/
 
   color: #262523;
 }
-.menu > a:hover{
-  text-decoration:underline;
+
+.menu>a:hover {
+  text-decoration: underline;
   font-family: 'Bold';
 }
-.title_text_content{
-  font-size: /*130px*/ 6.770833333vw;
+
+.title_text_content {
+  font-size:
+    /*130px*/
+    6.770833333vw;
   font-family: 'Black';
 
   color: rgb(140, 207, 234);
-  
+
   text-align: left;
   line-height: 0.879;
 }
-.testo_text_content{
-  font-size: /*19px*/ 0.989583333333333vw;
+
+.testo_text_content {
+  font-size:
+    /*19px*/
+    0.989583333333333vw;
   font-family: 'Light';
 
   color: rgb(38, 37, 35);
 
-  letter-spacing: 0px; /*spazio fra le lettere*/
+  letter-spacing: 0px;
+  /*spazio fra le lettere*/
   line-height: 1.7;
   text-align: left;
-  
+
 }
-.button_text_content{
+
+.button_text_content {
   font-family: 'Book';
-  font-size: /*24px*/1.30208333vw;
+  font-size:
+    /*24px*/
+    1.30208333vw;
 }
-.title_text_banner{
-  font-size: /*90px*/4.6875vw;
+
+.title_text_banner {
+  font-size:
+    /*90px*/
+    4.6875vw;
   font-family: 'Black';
   color: rgb(249, 245, 239);
 }
-.testo_text_banner{
+
+.testo_text_banner {
   font-size: 0.989583333333333vw;
   font-family: 'Light';
   text-align: left;
   color: rgb(249, 245, 239);
   line-height: 1.579;
-  
+
 }
-.lettera{
+
+.lettera {
   font-size: 2.44791666666667vw;
   font-family: 'Bold';
   color: rgb(249, 245, 239);
   line-height: 1.2;
 }
-.testo1{  
+
+.testo1 {
   font-size: 0.989583333333333vw;
   font-family: 'Book';
   color: rgb(249, 245, 239);
   line-height: 1.2;
-  
+
 }
-.testo2{
+
+.testo2 {
   font-size: 0.78125vw;
   font-family: 'Book';
   color: rgb(249, 245, 239);
 }
-.text_under_banner{
+
+.text_under_banner {
   font-size: 0.989583333vw;
   font-family: 'Light';
   color: rgb(38, 37, 35);
   line-height: 1.642;
 }
-.room_button_item{
+
+.room_button_item {
   font-family: 'Book';
-  font-size: /*24px*/1.30208333vw;
+  font-size:
+    /*24px*/
+    1.30208333vw;
   color: #f8f4ee;
 }
-.comments_title{
+
+.comments_title {
   font-size: 4.53125vw;
   font-family: "Black";
   color: rgb(249, 245, 239);
