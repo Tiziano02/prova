@@ -1,10 +1,10 @@
-.title{
+.title {
   /*posizione e dimenzione*/
   position: absolute;
   top: 23.229166666667vw;
   width: 100vw;
   height: 5.0521833333vw;
-  
+
   /*elementi del contenitore distribuiti in riga al centro sia verticalmente che orizzoltalmente*/
   display: flex;
   flex-direction: row;
@@ -12,8 +12,8 @@
   justify-content: center;
 }
 
-.room{
-  /*dimenzione e posizionamento tramite dei margini*/ 
+.room {
+  /*dimenzione e posizionamento tramite dei margini*/
   position: relative;
   height: 14.166666667vw;
   width: 46.66666667vw;
@@ -27,29 +27,31 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  
+
 }
-.room_button{
+
+.room_button {
   /*dimenzione*/
   width: 13.125vw;
   height: 3.95833333333vw;
 
   /*proprietà necessarie per lo script*/
-  background-color: inherit; /*lo stesso del body perciò lo stesso dello sfondo*/
+  background-color: inherit;
+  /*lo stesso del body perciò lo stesso dello sfondo*/
   color: rgb(38, 37, 35);
 }
-.colore_button_1
-{
+
+.colore_button_1 {
   color: rgb(248, 244, 238);
   background-color: #8bceea;
 }
-.colore_button_2
-{
+
+.colore_button_2 {
   color: rgb(248, 244, 238);
   background-color: #f5c174;
 }
-.colore_button_3
-{
+
+.colore_button_3 {
 
   color: rgb(248, 244, 238);
   background-color: #56baa7;
@@ -58,17 +60,20 @@
 .mosaico {
   /*come viene visualizzato*/
   display: grid;
-  justify-content: center; /*per metterlo al centro dello schermo*/
-    
+  justify-content: center;
+  /*per metterlo al centro dello schermo*/
+
   /*creazione della griglia*/
   grid-template-columns: 19.2708333vw 19.2708333vw 19.2708333vw 19.2708333vw;
   grid-template-rows: 19.2708333vw 19.2708333vw 19.2708333vw 19.2708333vw;
-  gap: 1.875vw; /*spazio fra gli elementi */
+  gap: 1.875vw;
+  /*spazio fra gli elementi */
 
-  margin-bottom: 9.4270833333vw; /*utilizzato per mettere lo spazio del footer*/
+  margin-bottom: 9.4270833333vw;
+  /*utilizzato per mettere lo spazio del footer*/
 }
 
-.button_1_1{
+.button_1_1 {
   width: 100%;
   height: 100%;
   grid-column-start: 1;
@@ -76,7 +81,8 @@
   grid-row-start: 1;
   grid-row-end: 2;
 }
-.button_1_2{
+
+.button_1_2 {
   width: 100%;
   height: 100%;
   grid-column-start: 1;
@@ -84,15 +90,17 @@
   grid-row-start: 2;
   grid-row-end: 3;
 }
-.button_1_3{
+
+.button_1_3 {
   width: 100%;
-  height: 100%;   
+  height: 100%;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
 }
-.button_1_4{
+
+.button_1_4 {
   width: 100%;
   height: 100%;
   grid-column-start: 4;
@@ -100,7 +108,8 @@
   grid-row-start: 1;
   grid-row-end: 3;
 }
-.button_1_5{
+
+.button_1_5 {
   width: 100%;
   height: 100%;
   grid-column-start: 1;
@@ -108,33 +117,36 @@
   grid-row-start: 3;
   grid-row-end: 5;
 }
-.button_1_6{
+
+.button_1_6 {
   width: 100%;
   height: 100%;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 4;
-    
+
 }
-.button_1_7{
+
+.button_1_7 {
   width: 100%;
   height: 100%;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 4;
-  grid-row-end: 5;  
+  grid-row-end: 5;
 }
-.button_1_8{
+
+.button_1_8 {
   width: 100%;
   height: 100%;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 4;
-  grid-row-end: 5;  
+  grid-row-end: 5;
 }
 
-.button_2_1{
+.button_2_1 {
   width: 100%;
   height: 100%;
   grid-column-start: 1;
@@ -142,15 +154,17 @@
   grid-row-start: 1;
   grid-row-end: 3;
 }
-.button_2_2{
+
+.button_2_2 {
   width: 100%;
   height: 100%;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 2; 
+  grid-row-end: 2;
 }
-.button_2_3{
+
+.button_2_3 {
   width: 100%;
   height: 100%;
   grid-column-start: 4;
@@ -158,7 +172,8 @@
   grid-row-start: 1;
   grid-row-end: 2;
 }
-.button_2_4{
+
+.button_2_4 {
   width: 100%;
   height: 100%;
   grid-column-start: 3;
@@ -166,7 +181,8 @@
   grid-row-start: 2;
   grid-row-end: 3;
 }
-.button_2_5{
+
+.button_2_5 {
   width: 100%;
   height: 100%;
   grid-column-start: 2;
@@ -174,7 +190,8 @@
   grid-row-start: 3;
   grid-row-end: 5;
 }
-.button_2_6{
+
+.button_2_6 {
   width: 100%;
   height: 100%;
   grid-column-start: 4;
@@ -182,19 +199,21 @@
   grid-row-start: 3;
   grid-row-end: 5;
 }
-.button_2_7{
+
+.button_2_7 {
   width: 100%;
   height: 100%;
- grid-column-start: 1;
+  grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 3;
-  grid-row-end: 5; 
+  grid-row-end: 5;
 }
-.button_2_8{
+
+.button_2_8 {
   display: none;
 }
 
-.button_3_1{
+.button_3_1 {
   width: 100%;
   height: 100%;
   grid-column-start: 1;
@@ -202,15 +221,17 @@
   grid-row-start: 1;
   grid-row-end: 3;
 }
-.button_3_2{
+
+.button_3_2 {
   width: 100%;
   height: 100%;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 1;
-  grid-row-end: 2; 
+  grid-row-end: 2;
 }
-.button_3_3{
+
+.button_3_3 {
   width: 100%;
   height: 100%;
   grid-column-start: 3;
@@ -218,7 +239,8 @@
   grid-row-start: 2;
   grid-row-end: 4;
 }
-.button_3_4{
+
+.button_3_4 {
   width: 100%;
   height: 100%;
   grid-column-start: 2;
@@ -226,7 +248,8 @@
   grid-row-start: 3;
   grid-row-end: 4;
 }
-.button_3_5{
+
+.button_3_5 {
   width: 100%;
   height: 100%;
   grid-column-start: 1;
@@ -234,7 +257,8 @@
   grid-row-start: 3;
   grid-row-end: 5;
 }
-.button_3_6{
+
+.button_3_6 {
   width: 100%;
   height: 100%;
   grid-column-start: 2;
@@ -242,7 +266,8 @@
   grid-row-start: 4;
   grid-row-end: 5;
 }
-.button_3_7{
+
+.button_3_7 {
   width: 100%;
   height: 100%;
   grid-column-start: 4;
@@ -250,7 +275,8 @@
   grid-row-start: 4;
   grid-row-end: 5;
 }
-.button_3_8{
+
+.button_3_8 {
   display: none;
 }
 
