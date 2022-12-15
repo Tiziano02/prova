@@ -92,7 +92,14 @@ button {
   background-color: #56baa7;
 }
 
-
+.go_up {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
 .footer {
   width: 100vw;

@@ -18,3 +18,6 @@ function stanzaCambio(colore) {
   change_mosaico(colore);
 }
 
+function backUp() {
+  $('body,html').animate({ scrollTop: 0 }, 600);
+}

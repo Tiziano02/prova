@@ -58,15 +58,18 @@
       <button class="button_form"></button>
 
     </form>
+<?php
+// the message
+$msg = "First line of text\nSecond line of text";
 
+// use wordwrap() if lines are longer than 70 characters
+$msg = wordwrap($msg,70);
+
+// send email
+mail("someone@example.com","My subject",$msg);
+?>
   </div>
-  <div class="carousel">
-    <a class="carousel-item"><img src="la struttura_foto/1/1.jpg"></a>
-    <a class="carousel-item"><img src="la struttura_foto/1/2.jpg"></a>
-    <a class="carousel-item"><img src="la struttura_foto/1/3.jpg"></a>
-    <a class="carousel-item"><img src="la struttura_foto/1/4.jpg"></a>
-    <a class="carousel-item"><img src="la struttura_foto/1/5.jpg"></a>
-  </div>
+
   <div class="footer" style="margin-top: 500px;">
     <div class="footer_left">
       <div class="footer_text">la struttura</div>
@@ -82,14 +85,6 @@
       <div class="footer_text">prenota ora</div>
     </div>
   </div>
-  <script>
-    $(document).ready(function () {
-      $('.carousel').carousel({
-        fullWidth: true,
-        indicators: true
-      });
-    });
-  </script>
 </body>
 
 </html>

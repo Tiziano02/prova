@@ -26,7 +26,7 @@
     <img class="logo" src="foto/logo.png">
     <a href="index.html" class="item1">home</a>
     <a href="chi siamo.html" class="item2">chi siamo </a>
-    <a href="contattaci.html" class="item3">contatti</a>
+    <a href="contattaci.php" class="item3">contatti</a>
     <button id="prenota" class="prenota_ora giallo">prenota ora</button>
   </div>
 
@@ -52,7 +52,9 @@
     <img src="la struttura_foto/2/8.jpg" id="zone8" class="button_2_8"></img>
   </div>
 
-
+  <div class="go_up">
+    <input id="back_up" type="image" src="foto/back_up.png">
+  </div>
 
   <div class="footer">
     <div class="footer_left">
@@ -72,6 +74,7 @@
 
 
   <script>
+    $("#back_up").click(backUp);
     $(document).ready(cambioIniziale());
     $("#prenota").click(prenota);
     $("#button1").click({ param1: "1" }, change_mosaico);

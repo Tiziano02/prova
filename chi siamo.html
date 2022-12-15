@@ -27,7 +27,7 @@
     <img class="logo" src="foto/logo.png">
     <a href="la struttura.html" class="item1">la struttura</a>
     <a href="index.html" class="item2">home </a>
-    <a href="contattaci.html" class="item3">contatti</a>
+    <a href="contattaci.php" class="item3">contatti</a>
     <button id="prenota" class="prenota_ora giallo">prenota ora </button>
   </div>
   <!--&#8594-->
@@ -94,7 +94,9 @@
       <button class="button_host">contatta Flavia </button>
     </div>
   </div>
-  <div class="go_up">aaa</div>
+  <div class="go_up">
+    <input id="back_up" type="image" src="foto/back_up.png">
+  </div>
   <div class="footer">
     <div class="footer_left">
       <div class="footer_text">la struttura</div>
@@ -113,6 +115,7 @@
 
 
   <script>
+    $("#back_up").click(backUp);
     $("#prenota").click(prenota);
   </script>
 
