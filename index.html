@@ -6,19 +6,21 @@
   <script type="text/javascript" src="javascript/home.js"></script>
   <script type="text/javascript" src="javascript/generale.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
   <link href="css/index/home.css" rel="stylesheet" type="text/css">
   <link href="css/index/regolefontHome.css" rel="stylesheet" type="text/css">
 
   <link href="css/font.css" rel="stylesheet" type="text/css">
   <link href="css/generale.css" rel="stylesheet" type="text/css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
   <meta charset="utf-8">
   <title>Alloggi Costantini</title>
 </head>
@@ -31,7 +33,7 @@
     <img class="logo" src="foto/logo.png">
     <a href="la struttura.html" class="item1">la struttura</a>
     <a href="chi siamo.html" class="item2">chi siamo </a>
-    <a href="contattaci.html" class="item3">contatti</a>
+    <a href="contattaci.html?number=0" class="item3">contatti</a>
     <button id="prenota" class="prenota_ora giallo">prenota ora</button>
   </div>
 
@@ -88,10 +90,10 @@
     <img class="room_item" src="home_foto/stanza_turchese.jpg">
   </div>
 
-  <div class="room_button">
-    <button id="stanza_azzurra" class="room_button_item azzurro"> stanza azzurra ></button>
-    <button id="stanza_gialla" class="room_button_item giallo">stanza gialla ></button>
-    <button id="stanza_turchese" class="room_button_item turchese">stanza turchese ></button>
+  <div class="room_button" id="room_button">
+    <button id="stanza_azzurra" class="room_button_item azzurro"> stanza azzurra </button>
+    <button id="stanza_gialla" class="room_button_item giallo">stanza gialla </button>
+    <button id="stanza_turchese" class="room_button_item turchese">stanza turchese </button>
   </div>
 
   <img class="award" src="home_foto/AWARD.png" alt="">
@@ -99,7 +101,33 @@
   <div class="comments azzurro">
 
     <div class="comments_title">Dicono di noi</div>
-    <div class="comments_item">TEXT</div>
+    <div class="carousel carousel-slider">
+      <div class="carousel-item">
+        <div> Eccellente </div>
+        <div>Struttura nuovissima e pulitissima. Dotata di tutto l’occorrente. Sono disponibili 3 camere
+          con bagno privato ed uso cucina/soggiorno in comune. Hanno alloggiato qui i miei
+          genitori e sono rimasti davvero soddisfatti! Rapporto qualità prezzo davvero ottimo!</div>
+        <div> Alessandra </div>
+
+      </div>
+      <div class="carousel-item">
+        <div>Eccellente</div>
+        <div>L'appartamento é nuovo, accogliente, molto grazioso e confortevole. Le foto corrispondono perfettamente
+          al reale stato
+          della casa.
+          La pulizia è impeccabile e Flavia molto gentile, disponibile e ospitale. Infine il rapporto qualità prezzo è
+          molto buono
+          (considerando che ci troviamo in una zona costosa il prezzo è onesto). Alloggio che consiglio vivamente!
+        </div>
+        <div>Francesca</div>
+      </div>
+      <div class="carousel-item">
+        <div> Soggiorno Perfetto </div>
+        <div>Soggiorno perfetto, casa spaziosa e incredibilmente pulita.
+          Disponibile ogni confort. Tornerei assolutamente. Grazie di tutto!</div>
+        <div>Giulia</div>
+      </div>
+    </div>
   </div>
 
   <div class="go_up">aaa</div>
@@ -123,6 +151,12 @@
   <script>
     $("#prenota").click(prenota);
     $("#scopri_di_piu").click(messaggio);
+    $("#stanza_azzurra").click({ param1: "1" }, stanzaCambio);
+    $("#stanza_gialla").click({ param1: "2" }, stanzaCambio);
+    $("#stanza_turchese").click({ param1: "3" }, stanzaCambio);
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true
+    });
   </script>
 </body>
 
