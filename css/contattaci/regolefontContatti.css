@@ -71,12 +71,26 @@ textarea.materialize-textarea {
 }
 
 .infoTitle {
-  font-size: 48.588px;
+  font-size: 2.5vw;
   font-family: 'Black';
   color: rgb(38, 37, 35);
 }
 
 .infoTextItem {
+  font-size: 0.98958333vw;
+  font-family: 'Light';
+  color: rgb(38, 37, 35);
+  line-height: 1.895;
+}
+
+.raggiungerciTitle {
+  font-size: 4.6875vw;
+  font-family: 'Black';
+  color: rgb(38, 37, 35);
+  line-height: 1;
+}
+
+.raggiungerciText {
   font-size: 0.98958333vw;
   font-family: 'Light';
   color: rgb(38, 37, 35);

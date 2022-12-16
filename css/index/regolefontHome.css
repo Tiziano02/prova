@@ -1,8 +1,8 @@
 .menu>a {
   font-family: 'Light';
-  font-size:
-    /*32px*/
-    1.6666667vw;
+  font-size: 1.6666667vw;
+  /*32px*/
+
   /*tutte le proprietè della linea del link cancellate*/
   text-decoration: none;
 

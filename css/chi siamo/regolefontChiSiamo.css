@@ -1,46 +1,55 @@
-.menu > a{
+.menu>a {
   font-family: 'Light';
-  font-size: /*32px*/ 1.6666667vw;
+  font-size:
+    /*32px*/
+    1.6666667vw;
   /*tutte le proprietè della linea del link cancellate*/
-  text-decoration: none; 
+  text-decoration: none;
 
-  font-weight: normal; /*grandezza del carattere*/
-  letter-spacing: normal; /*spazio fra le lettere*/
-  word-spacing: normal; /*spazio fra le parole*/
+  font-weight: normal;
+  /*grandezza del carattere*/
+  letter-spacing: normal;
+  /*spazio fra le lettere*/
+  word-spacing: normal;
+  /*spazio fra le parole*/
 
   color: #ffffff;
 }
-.menu > a:hover{
-  text-decoration:underline;
+
+.menu>a:hover {
+  text-decoration: underline;
   font-family: 'Bold';
 }
-.title
-{
-  font-size: /*130px*/ 6.770833333vw;
+
+.title {
+  font-size:
+    /*130px*/
+    6.770833333vw;
   font-family: 'Black';
 
   color: #ffffff;
-  
+
   text-align: left;
   line-height: 0.879;
 }
-.content_testo
-{
-  font-size: /*19px*/ 0.989583333333333vw;
+
+.content_testo {
+  font-size:
+    /*19px*/
+    0.989583333333333vw;
   font-family: 'Light';
   color: rgb(38, 37, 35);
   line-height: 1.895;
 }
 
-.titolo_comfort
-{
+.titolo_comfort {
   font-size: 4.6875vw;
   font-family: 'Black';
   color: rgb(38, 37, 35);
   line-height: 1;
 }
-.button_comfort
-{
+
+.button_comfort {
   font-size: 1.296680vw;
   font-family: 'Bold';
   color: rgb(38, 37, 35);
@@ -48,82 +57,79 @@
   line-height: 1.2;
 }
 
-.titolo_coffe
-{
-  font-size: 0.98958333vw;
-  font-family: 'Bold';
-  color: rgb(38, 37, 35);
-  line-height: 1.2;
-}
-.titolo_tv
-{
-  font-size: 0.98958333vw;
-  font-family: 'Bold';
-  color: rgb(38, 37, 35);
-  line-height: 1.2;
-}
-.titolo_wifi
-{
-  font-size: 0.98958333vw;
-  font-family: 'Bold';
-  color: rgb(38, 37, 35);
-  line-height: 1.2;
-}
-.titolo_wm
-{
+.titolo_coffe {
   font-size: 0.98958333vw;
   font-family: 'Bold';
   color: rgb(38, 37, 35);
   line-height: 1.2;
 }
 
-.testo_coffe
-{
+.titolo_tv {
+  font-size: 0.98958333vw;
+  font-family: 'Bold';
+  color: rgb(38, 37, 35);
+  line-height: 1.2;
+}
+
+.titolo_wifi {
+  font-size: 0.98958333vw;
+  font-family: 'Bold';
+  color: rgb(38, 37, 35);
+  line-height: 1.2;
+}
+
+.titolo_wm {
+  font-size: 0.98958333vw;
+  font-family: 'Bold';
+  color: rgb(38, 37, 35);
+  line-height: 1.2;
+}
+
+.testo_coffe {
   font-size: 0.77125vw;
   font-family: 'Book';
   color: rgb(38, 37, 35);
   line-height: 1.2;
 }
-.testo_wifi
-{
+
+.testo_wifi {
   font-size: 0.77125vw;
   font-family: 'Book';
   color: rgb(38, 37, 35);
   line-height: 1.2;
 }
-.testo_tv
-{
+
+.testo_tv {
   font-size: 0.77125vw;
   font-family: 'Book';
   color: rgb(38, 37, 35);
   line-height: 1.2;
 }
-.testo_wm
-{
+
+.testo_wm {
   font-size: 0.77125vw;
   font-family: 'Book';
   color: rgb(38, 37, 35);
   line-height: 1.2;
 }
-.titolo_host
-{
+
+.titolo_host {
   font-size: 4.58333vw;
   font-family: 'Black';
   color: rgb(248, 244, 238);
   line-height: 1.2;
 }
-.testo_host
-{
+
+.testo_host {
   font-family: 'Light';
   font-size: 0.989583333333333vw;
   color: rgb(248, 244, 238);
   line-height: 1.895;
 }
-.button_host
-{
+
+.button_host {
   font-family: 'Bold';
   font-size: 1.296680vw;
   color: rgb(248, 244, 238);
   line-height: 1.2;
 }
-

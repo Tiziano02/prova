@@ -63,5 +63,28 @@
 }
 
 .infoImg {
-  padding-right: 30px;
+  width: 5vw;
+  min-width: 25px;
+}
+
+.raggiungerci {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 40vw;
+  margin-bottom: 600px;
+}
+
+.raggiungerciImg {
+  width: 76.0416666vw;
+  margin-bottom: 6.25vw;
+}
+
+.raggiungerciTitle {
+  margin-bottom: 2.6041666vw;
+}
+
+.raggiungerciText {
+  margin-bottom: 3.6458333vw;
 }
