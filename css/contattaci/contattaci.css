@@ -1,52 +1,67 @@
-.content{
-  /*margin-right: 45.05208333vw;*/
-  margin-top: 331px; /*143+216px18.6979166666667vw*/
-  width: 42.91666667vw; 
-  margin-left: 11.875vw;/*228px*/
+.content_title {
+  margin-bottom: 1.5vw;
+  /* da rivedere 3.64583333333333vw */
+}
+
+.content_form {
+  width: 42.9166667vw;
+  height: 32.2916667vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content_text {
+  margin-bottom: 4vw;
+  text-align: justify !important;
+}
+
+.sendButton {
+  height: 3.95833333333vw;
+  background-color: #f2ede8;
+}
+
+.content {
+  margin-top: 15.05vw;
+  width: 42.91666667vw;
+  margin-left: 11.875vw;
+  /*228px*/
   display: flex;
   flex-direction: column;
 }
 
-.content_title{
+.contatti {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-  /*FONT*/
-  font-size: 6.991666667vw;
-  font-family: "Circular Std Black";
-  color: rgb(139, 206, 234);
-  line-height: 1.2;
-  transform: matrix( 1,0,0,1.00002681037025,0,0);
-
-  margin-bottom: 28px;/* da rivedere 3.64583333333333vw */
+  margin-bottom: 300px;
 }
 
-.content_text{
 
-  margin-bottom: 72px;
-  /*FONT*/
-  font-size: 19px;
-  font-family: "Circular Std Light";
-  color: rgb(38, 37, 35);
-  line-height:  1.895;
-  text-align:  justify !important;
-  transform: matrix( 1,0,0,1.00002681037025,0,0);
-}
-.input-field>label {
+.info {
+  align-self: flex-end;
+  width: 34.375vw;
+  height: 35.29vw;
+  margin-top: 16.666vw;
+  background-color: #f2ede8;
+  box-shadow: 2.39583333vw 2.39583333vw 0px #e8decf;
 
-  font-size: 1.302083333333333vw !important;
-  font-family: "Circular Std" !important;
-  color: #8f8c88 !important;
-  line-height: 1.2 !important;
-  margin-bottom: 2.08333vw !important;
-
-}
-.input-field{
-  margin-bottom: 3.90625 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  padding-left: 70px;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
-input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
-  font-size: 0.98958333vw !important;
-  font-family: "Circular Std Light" !important;
-  color: rgb(38, 37, 35) !important;
-  line-height:  1.895 !important;
+.infoItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
+.infoImg {
+  padding-right: 30px;
+}

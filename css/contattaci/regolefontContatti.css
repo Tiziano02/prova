@@ -1,51 +1,84 @@
-.menu > a{
+.menu>a {
   font-family: 'Light';
-  font-size: /*32px*/ 1.6666667vw;
+  font-size:
+    /*32px*/
+    1.6666667vw;
   /*tutte le proprietè della linea del link cancellate*/
-  text-decoration: none; 
+  text-decoration: none;
 
-  font-weight: normal; /*grandezza del carattere*/
-  letter-spacing: normal; /*spazio fra le lettere*/
-  word-spacing: normal; /*spazio fra le parole*/
+  font-weight: normal;
+  /*grandezza del carattere*/
+  letter-spacing: normal;
+  /*spazio fra le lettere*/
+  word-spacing: normal;
+  /*spazio fra le parole*/
 
   color: #262523;
 }
-.menu > a:hover{
-  text-decoration:underline;
+
+.menu>a:hover {
+  text-decoration: underline;
   font-family: 'Bold';
 }
-.content_title
-{ 
+
+.content_title {
   font-size: 6.991666667vw;
   font-family: 'Black';
   color: rgb(139, 206, 234);
   line-height: 1.2;
 }
 
-.content_text{
+.content_text {
   font-size: 0.98958333vw;
   font-family: 'Light';
   color: rgb(38, 37, 35);
-  line-height:  1.895;
+  line-height: 1.895;
 }
-.input-field>label {
 
+.input-field>label {
   font-size: 1.302083333333333vw !important;
   font-family: "Circular Std" !important;
   color: #8f8c88 !important;
   line-height: 1.2 !important;
-  margin-bottom: 2.08333vw !important;
-
-}
-.input-field{
-  margin-bottom: 3.90625 !important;
 }
 
-input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+
+
+.sendButton {
+  font-size: 1.302083333333333vw !important;
+  font-family: "Circular Std" !important;
+  color: rgb(38, 37, 35);
+  line-height: 1.2 !important;
+}
+
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
   font-size: 0.98958333vw !important;
   font-family: "Circular Std Light" !important;
   color: rgb(38, 37, 35) !important;
-  line-height:  1.895 !important;
+  line-height: 1.895 !important;
 }
 
+.infoTitle {
+  font-size: 48.588px;
+  font-family: 'Black';
+  color: rgb(38, 37, 35);
+}
 
+.infoTextItem {
+  font-size: 0.98958333vw;
+  font-family: 'Light';
+  color: rgb(38, 37, 35);
+  line-height: 1.895;
+}
