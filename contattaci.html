@@ -41,10 +41,10 @@
       necessità, come faremo nel tuo prossimo soggiorno presso gli Alloggi Costantini.
     </div>
 
-    <form class="content_form" method="POST">
+    <form class="content_form" action="https://formspree.io/f/xlekrdoo" method="POST">
 
       <div class="input-field">
-        <input id="email" type="email" class="validate">
+        <input name="email" id="email" type="email" class="validate">
         <label for="email">E-mail mittente</label>
       </div>
       <div class="input-field">
@@ -52,12 +52,29 @@
         <label for="email2">E-mail destinatario</label>
       </div>
       <div class="input-field">
-        <textarea id="textarea1" class="materialize-textarea"></textarea>
+        <textarea name="message" id="textarea1" class="materialize-textarea"></textarea>
         <label for="textarea1">Messaggio</label>
       </div>
-      <button class="button_form"></button>
+      <button type="submit" class="button_form">Send</button>
 
     </form>
+
+    <!-- modify this form HTML and place wherever you want your form 
+<form  method="POST">
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  // your other form fields go here 
+  <button type="submit">Send</button>
+</form>
+-->
+
+
     <div class="footer" style="margin-top: 500px;">
       <div class="footer_left">
         <div class="footer_text">la struttura</div>
