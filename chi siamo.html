@@ -95,24 +95,32 @@
   </div>
   <div class="footer">
     <div class="footer_left">
-      <div class="footer_text">la struttura</div>
-      <div class="footer_text">chi siamo</div>
+      <div id="laStruttura" class="footer_text">la struttura</div>
+      <div id="chiSiamo" class="footer_text">chi siamo</div>
     </div>
     <div class="footer_center">
-      <img class="facebook" src="foto/facebook.png" alt="">
-      <img class="whatsapp" src="foto/whatsapp.png" alt="">
-      <img class="instagram" src="foto/instagram.png" alt="">
+      <img id="facebook" class="facebook" src="foto/facebook.png" alt="">
+      <img id="whatsapp" class="whatsapp" src="foto/whatsapp.png" alt="">
+      <img id="instagram" class="instagram" src="foto/instagram.png" alt="">
     </div>
     <div class="footer_right">
-      <div class="footer_text">contatti</div>
-      <div class="footer_text">prenota ora</div>
+      <div id="contatti" class="footer_text">contatti</div>
+      <div id="prenota" class="footer_text">prenota ora</div>
     </div>
   </div>
 
 
   <script>
     $("#back_up").click(backUp);
+
     $("#prenota").click(prenota);
+    $("#chiSiamo").click(chiSiamo);
+    $("#laStruttura").click(laStruttura);
+    $("#contatti").click(contatti);
+
+    $("#instagram").click(alert("caioo"));
+    $("#facebook").click(alert("caioo"));
+    $("#whatsapp").click(alert("caioo"));
   </script>
 
 </body>

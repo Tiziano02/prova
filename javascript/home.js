@@ -1,4 +1,3 @@
 function messaggio() {
-  alert("cosa devo fare?")
+  window.location = "chi siamo.html";
 }
-

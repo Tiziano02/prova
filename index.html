@@ -131,24 +131,34 @@
 
   <div class="footer">
     <div class="footer_left">
-      <div class="footer_text">la struttura</div>
-      <div class="footer_text">chi siamo</div>
+      <div id="laStruttura" class="footer_text">la struttura</div>
+      <div id="chiSiamo" class="footer_text">chi siamo</div>
     </div>
     <div class="footer_center">
-      <img class="facebook" src="foto/facebook.png" alt="">
-      <img class="whatsapp" src="foto/whatsapp.png" alt="">
-      <img class="instagram" src="foto/instagram.png" alt="">
+      <img id="facebook" class="facebook" src="foto/facebook.png" alt="">
+      <img id="whatsapp" class="whatsapp" src="foto/whatsapp.png" alt="">
+      <img id="instagram" class="instagram" src="foto/instagram.png" alt="">
     </div>
     <div class="footer_right">
-      <div class="footer_text">contatti</div>
-      <div class="footer_text">prenota ora</div>
+      <div id="contatti" class="footer_text">contatti</div>
+      <div id="prenota" class="footer_text">prenota ora</div>
     </div>
   </div>
 
   <script>
-    $("#prenota").click(prenota);
+
     $("#back_up").click(backUp);
-    $("#scopri_di_piu").click(messaggio);
+    $("#scopri_di_piu").click(chiSiamo);
+
+    $("#instagram").click(alert("caioo"));
+    $("#facebook").click(alert("caioo"));
+    $("#whatsapp").click(alert("caioo"));
+
+    $("#prenota").click(prenota);
+    $("#chiSiamo").click(chiSiamo);
+    $("#laStruttura").click(laStruttura);
+    $("#contatti").click(contatti);
+
     $("#stanza_azzurra").click({ param1: "1" }, stanzaCambio);
     $("#stanza_gialla").click({ param1: "2" }, stanzaCambio);
     $("#stanza_turchese").click({ param1: "3" }, stanzaCambio);
