@@ -4,6 +4,7 @@
 <head>
 
   <script type="text/javascript" src="javascript/generale.js"></script>
+  <script type="text/javascript" src="javascript/chiSiamo.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <link href="css/chi siamo/chi siamo.css" rel="stylesheet" type="text/css">
@@ -75,7 +76,7 @@
       <div class="titolo_coffe">Macchina del caffe</div>
       <div class="testo_coffe">Dotato di cialde per te e caffe</div>
     </div>
-    <button class="button_comfort">scopri le stanze</button>
+    <button id="buttonStanze" class="button_comfort">scopri le stanze</button>
   </div>
 
   <div class="host">
@@ -87,7 +88,7 @@
         e dell’accoglienza ai clienti. La mia idea di accoglienza combina disponibilità e cordialità, ma soprattutto
         attenzione
         ai dettagli. Sono pronta a rispondere a tutte le vostre domande, contattatemi.</div>
-      <button class="button_host">contatta Flavia </button>
+      <button id="buttonHost" class="button_host">contatta Flavia </button>
     </div>
   </div>
   <div class="go_up">
@@ -111,6 +112,10 @@
 
 
   <script>
+
+    $("#buttonStanze").click(stanze);
+    $("#buttonHost").click(contatta);
+
     $("#back_up").click(backUp);
 
     $("#prenota").click(prenota);
