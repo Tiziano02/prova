@@ -1,6 +1,6 @@
 
 function prenota() {
-  alert("hai premuto prenota ora");
+  alert("Questo tasto ancora non è attivo");
 }
 
 function whatsapp() {

@@ -113,4 +113,28 @@
   font-family: "Black";
   color: rgb(249, 245, 239);
   line-height: 1.2;
+  text-align: center;
+}
+
+.testoCarosello {
+  font-size: 0.989583333333333vw;
+  font-family: 'Light';
+  text-align: center;
+  color: rgb(249, 245, 239);
+  line-height: 1.579;
+
+  width: 50vw;
+}
+
+.titleCarosello {
+  font-size: 2.6vw;
+  font-family: 'Black';
+  text-align: center;
+}
+
+.nameCarosello {
+  font-size: 1.3vw;
+  font-family: 'Book';
+  text-align: center;
+  color: rgb(249, 245, 239);
 }

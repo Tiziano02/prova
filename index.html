@@ -98,29 +98,31 @@
     <div class="comments_title">Dicono di noi</div>
     <div class="carousel carousel-slider">
       <div class="carousel-item">
-        <div> Eccellente </div>
-        <div>Struttura nuovissima e pulitissima. Dotata di tutto l’occorrente. Sono disponibili 3 camere
+        <div class="titleCarosello"> "Eccellente" </div>
+        <div class="testoCarosello">Struttura nuovissima e pulitissima. Dotata di tutto l’occorrente. Sono disponibili 3
+          camere
           con bagno privato ed uso cucina/soggiorno in comune. Hanno alloggiato qui i miei
           genitori e sono rimasti davvero soddisfatti! Rapporto qualità prezzo davvero ottimo!</div>
-        <div> Alessandra </div>
+        <div class="nameCarosello"> Alessandra </div>
 
       </div>
       <div class="carousel-item">
-        <div>Eccellente</div>
-        <div>L'appartamento é nuovo, accogliente, molto grazioso e confortevole. Le foto corrispondono perfettamente
+        <div class="titleCarosello">"Eccellente"</div>
+        <div class="testoCarosello">L'appartamento é nuovo, accogliente, molto grazioso e confortevole. Le foto
+          corrispondono perfettamente
           al reale stato
           della casa.
           La pulizia è impeccabile e Flavia molto gentile, disponibile e ospitale. Infine il rapporto qualità prezzo è
           molto buono
           (considerando che ci troviamo in una zona costosa il prezzo è onesto). Alloggio che consiglio vivamente!
         </div>
-        <div>Francesca</div>
+        <div class="nameCarosello">Francesca</div>
       </div>
       <div class="carousel-item">
-        <div> Soggiorno Perfetto </div>
-        <div>Soggiorno perfetto, casa spaziosa e incredibilmente pulita.
+        <div class="titleCarosello"> "Soggiorno Perfetto" </div>
+        <div class="testoCarosello">Soggiorno perfetto, casa spaziosa e incredibilmente pulita.
           Disponibile ogni confort. Tornerei assolutamente. Grazie di tutto!</div>
-        <div>Giulia</div>
+        <div class="nameCarosello">Giulia</div>
       </div>
     </div>
   </div>
@@ -163,9 +165,14 @@
     $("#stanza_azzurra").click({ param1: "1" }, stanzaCambio);
     $("#stanza_gialla").click({ param1: "2" }, stanzaCambio);
     $("#stanza_turchese").click({ param1: "3" }, stanzaCambio);
+
     $('.carousel.carousel-slider').carousel({
-      fullWidth: true
+      fullWidth: true,
+      duration: 200,
     });
+
+    autoplay();
+
   </script>
 </body>
 

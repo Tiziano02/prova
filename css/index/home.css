@@ -232,9 +232,11 @@ body {
   align-items: center;
 }
 
+.carousel.carousel-slider .carousel-item {
+  min-height: 0px !important;
+}
 
 .carousel-item {
-  height: 300px !important;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
