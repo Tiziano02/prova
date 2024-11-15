@@ -3,6 +3,16 @@ function prenota() {
   alert("hai premuto prenota ora");
 }
 
+function whatsapp() {
+  window.location = "https://www.youtube.com"
+}
+function facebook() {
+  window.location = "https://www.youtube.com"
+}
+function instagram() {
+  window.location = "https://www.youtube.com"
+}
+
 
 function stanzaCambio(colore) {
   window.location = "la struttura.html?number=" + colore.data.param1;

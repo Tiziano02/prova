@@ -94,11 +94,15 @@ button {
 
 .go_up {
   width: 100vw;
-  height: 300px;
+  height: 15.625vw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+#back_up {
+  height: 5.208vw;
 }
 
 .footer {

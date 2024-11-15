@@ -8,7 +8,6 @@ function change_mosaico(number) {
             $("#button" + number.data.param1).addClass("colore_button_" + number.data.param1);
         else
             $("#button" + i).removeClass("colore_button_" + i);
-
 }
 
 function cambioIniziale() {
