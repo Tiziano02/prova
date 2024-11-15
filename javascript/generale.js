@@ -4,13 +4,13 @@ function prenota() {
 }
 
 function whatsapp() {
-  window.location = "https://www.youtube.com"
+  window.location = "https://api.whatsapp.com/send?phone=%2B393342378911&app=facebook&entry_point=page_cta&fbclid=IwZXh0bgNhZW0CMTAAAR3j9o2zKrebtVnAV1sN-RPKLtwkPHtP2pSAhg4BbT4v5SeqXjDwUqlYZQ4_aem_RCq--jgxKkWXtiXxJVoCzg"
 }
 function facebook() {
-  window.location = "https://www.youtube.com"
+  window.location = "https://www.facebook.com/alloggicostantini"
 }
 function instagram() {
-  window.location = "https://www.youtube.com"
+  window.location = "https://www.instagram.com/alloggicostantini?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
 }
 
 
