@@ -1,3 +1,10 @@
+@media (max-width: 600px) {
+  .menu>a {
+    font-size: 3vw !important;
+  }
+}
+
+
 .menu>a {
   font-family: 'Light';
   font-size: 1.6666667vw;
@@ -32,6 +39,7 @@
   text-align: left;
   line-height: 0.879;
 }
+
 
 .testo_text_content {
   font-size:
