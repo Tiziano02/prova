@@ -11,13 +11,33 @@ button {
 }
 
 .foto_prova {
-
   top: 25vh;
   bottom: 25vh;
   left: 25vw;
   right: 25vw;
   width: 50vw;
   height: 50vh;
+}
+
+@media (max-width: 1200px) {
+
+  .menu {
+    width: 100vw !important;
+    height: auto !important;
+  }
+
+  .menu>a {
+    width: 25.83vw !important;
+  }
+
+  .logo {
+    display: block !important;
+    width: 22.5vw !important;
+  }
+
+  .prenota_ora {
+    display: none !important;
+  }
 }
 
 .menu {

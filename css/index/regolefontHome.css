@@ -1,6 +1,6 @@
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
   .menu>a {
-    font-size: 3vw !important;
+    font-size: 3.5vw !important;
   }
 
   .title_text_content {
@@ -8,9 +8,45 @@
   }
 
   .testo_text_content {
-    font-size: 3vw !important;
-    color: red;
+    font-size: 3.5vw !important;
+    text-align: justify !important;
+    margin-left: 4.5vw !important;
+    margin-right: 4.5vw !important;
   }
+
+  .testo_text_content>br {
+    display: none !important;
+  }
+
+  .title_text_banner {
+    margin-top: 7vw !important;
+    font-size: 10vw !important;
+  }
+
+  .testo_text_banner {
+    font-size: 4vw !important;
+    text-align: justify !important;
+    margin-left: 4.5vw !important;
+    margin-right: 4.5vw !important;
+  }
+
+  .testo_text_banner>br {
+    display: none !important;
+
+  }
+
+  .text_under_banner {
+    font-size: 3.5vw !important;
+    margin-top: 10vw !important;
+    text-align: justify !important;
+    margin-left: 4.5vw !important;
+    margin-right: 4.5vw !important;
+  }
+
+  .text_under_banner>br {
+    display: none !important;
+  }
+
 }
 
 
@@ -53,7 +89,7 @@
 .testo_text_content {
   font-size:
     /*19px*/
-    0.989583333333333vw;
+    1.2vw;
   font-family: 'Light';
 
   color: rgb(38, 37, 35);
@@ -85,7 +121,6 @@
   text-align: left;
   color: rgb(249, 245, 239);
   line-height: 1.579;
-
 }
 
 .lettera {
