@@ -1,9 +1,11 @@
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .menu>a {
     font-size: 3vw !important;
   }
 
-
+  .title_text_content {
+    font-size: 15.770833333vw !important;
+  }
 
   .testo_text_content {
     font-size: 3vw !important;
