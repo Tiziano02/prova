@@ -38,6 +38,65 @@ button {
   .prenota_ora {
     display: none !important;
   }
+
+  .go_up {
+    height: 31vw !important;
+  }
+
+  #back_up {
+    height: 10.208vw !important;
+  }
+
+  .footer {
+    position: relative !important;
+    height: 20vw !important;
+    width: 100vw !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .footer_center {
+    position: relative !important;
+    left: 0px !important;
+    width: 15vw !important;
+    height: 20vw !important;
+  }
+
+  .footer_left {
+    position: relative !important;
+    left: 0px !important;
+    height: 20vw !important;
+    width: 35vw !important;
+  }
+
+  .footer_right {
+    position: relative !important;
+    right: 0px !important;
+    height: 20vw !important;
+    width: 35vw !important;
+  }
+
+  .footer_text {
+    font-size: 3.5vw !important;
+  }
+
+  .instagram {
+    width: 3.5vw !important;
+    height: 3.5vw !important;
+  }
+
+  .facebook {
+    width: 2.5vw !important;
+    height: 4vw !important;
+  }
+
+  .whatsapp {
+    width: 3.5vw !important;
+    height: 3.5vw !important;
+  }
 }
 
 .menu {

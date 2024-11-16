@@ -8,7 +8,7 @@ body {
     flex-direction: column !important;
     justify-content: space-between !important;
     margin-top: 26.59375vw !important;
-
+    height: 114vw !important;
   }
 
   .text_content {
@@ -31,6 +31,7 @@ body {
     align-items: center !important;
     text-align: center !important;
     justify-content: space-between;
+    margin-top: 36vw !important;
   }
 
   .text_banner {
@@ -41,7 +42,7 @@ body {
 
   .award {
     left: 83.572917vw !important;
-    top: 144.8vw !important;
+    top: 175.8vw !important;
     width: 12.979167vw !important;
     height: 16.697917vw !important;
   }
@@ -90,6 +91,7 @@ body {
   .room_button {
     margin-left: 50.34375vw !important;
     height: 149vw !important;
+    width: 25vw !important;
     top: -145.083333vw !important;
     flex-direction: column !important;
     justify-content: space-between !important;
@@ -100,6 +102,22 @@ body {
     height: 8.5vw !important;
   }
 
+  .comments {
+    margin-top: -128.239583vw !important;
+    /*distanza tra room e comments 
+    visto che ho posizionato maualmete i button lo spazio inizia alla fine dei button teorico 
+    e non quello effettivo perciò (189px - 40px = 149px)*/
+    height: 75vw !important;
+    /*550px*/
+    justify-content: space-around !important;
+  }
+
+  .comments_title {
+    padding-bottom: 10vw !important;
+    width: 100vw !important;
+    /*547px*/
+    /*67px*/
+  }
 
 }
 

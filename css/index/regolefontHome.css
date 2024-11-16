@@ -12,6 +12,7 @@
     text-align: justify !important;
     margin-left: 4.5vw !important;
     margin-right: 4.5vw !important;
+    margin-top: 5vw !important;
   }
 
   .testo_text_content>br {
@@ -21,6 +22,8 @@
   .title_text_banner {
     margin-top: 7vw !important;
     font-size: 10vw !important;
+    text-align: left !important;
+    margin-left: 4.5vw !important;
   }
 
   .testo_text_banner {
@@ -50,7 +53,26 @@
 
   .room_button_item {
     font-size: 3.5vw !important;
+  }
 
+  .comments_title {
+    font-size: 10vw !important;
+
+  }
+
+  .testoCarosello {
+    font-size: 3.5vw !important;
+    width: 100vw !important;
+    margin-right: 4.5vw !important;
+    margin-left: 4.5vw !important;
+  }
+
+  .titleCarosello {
+    font-size: 7vw !important;
+  }
+
+  .nameCarosello {
+    font-size: 4vw !important;
   }
 }
 
