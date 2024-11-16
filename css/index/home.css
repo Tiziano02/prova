@@ -19,7 +19,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center !important;
+  }
 
+  .button_text_content {
+    display: none !important;
   }
 }
 
