@@ -65,7 +65,6 @@
     top: 223.3125vw !important;
   }
 
-
   .pic_wm {
     left: 33.1458333vw !important;
     width: 4.96875vw !important;
@@ -89,7 +88,6 @@
     width: 5.4375vw !important;
     height: 4.864583vw !important;
   }
-
 
   .titolo_coffe {
     position: absolute;
@@ -133,6 +131,57 @@
     top: 207.083385vw !important;
   }
 
+  .host {
+    height: 107vw !important;
+    margin-top: 45vw !important;
+    flex-direction: column-reverse !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    text-align: justify !important;
+  }
+
+  .foto_host {
+    width: 60.32vw !important;
+    height: 40vw !important;
+    margin-left: 0vw !important;
+    margin-right: 0vw !important;
+    margin-top: 0vw !important;
+    box-shadow: 2.291666666666667vw
+      /*44px*/
+      2.135416666666667vw
+      /*41px*/
+      0px #4eb3d2
+  }
+
+  .text_host {
+    margin-top: 0vw !important;
+    margin-right: 0vw !important;
+    width: 100vw !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .titolo_host {
+    height: 15vw !important;
+    width: 95vw !important;
+  }
+
+  .testo_host {
+    margin-top: 2.5vw;
+    margin-bottom: 2.395833333333333vw;
+    height: 0vw !important;
+    width: 90vw !important;
+  }
+
+  .button_host {
+    display: none !important;
+    width: 14.427083333333333vw;
+    height: 4.0625vw;
+
+    color: rgb(248, 244, 238);
+    background-color: #4eb3d2;
+  }
 
 }
 
