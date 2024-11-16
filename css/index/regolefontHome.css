@@ -48,6 +48,10 @@
     display: none !important;
   }
 
+  .room_button_item {
+    font-size: 3.5vw !important;
+
+  }
 }
 
 

@@ -60,6 +60,47 @@ body {
     display: none !important;
   }
 
+  .room {
+    margin-top: 10vw !important;
+    height: 190vw !important;
+    width: 100vw;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    /*sono tutte con la stessa tra di loro 303px 
+    e con la stessa distanza dai bordi 167px*/
+  }
+
+  .room_item {
+    width: 50vw !important;
+    height: 50vw !important;
+
+    /*OMBRA DELLE FOTO ROOM*/
+    border-top: 7vw solid #f2ede8 !important;
+    /*61*/
+    border-left: 5vw solid #f2ede8 !important;
+    /*53*/
+    border-bottom: 7vw solid #f2ede8 !important;
+    /*61*/
+    border-right: 5vw solid #f2ede8 !important;
+    /*53*/
+  }
+
+  .room_button {
+    margin-left: 50.34375vw !important;
+    height: 149vw !important;
+    top: -145.083333vw !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+  }
+
+  .room_button_item {
+    width: 32vw !important;
+    height: 8.5vw !important;
+  }
+
+
 }
 
 .content {
