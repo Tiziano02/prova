@@ -1,3 +1,24 @@
+@media (max-width: 1200px) {
+  .title {
+    top: 29.229167vw !important;
+  }
+
+  .room {
+    width: 90vw !important;
+    margin-left: 5vw !important;
+    margin-right: 5vw !important;
+    height: 23.166667vw !important;
+  }
+
+  .room_button {
+    /*dimenzione*/
+    width: 40vw !important;
+    height: 8vw !important;
+  }
+}
+
+
+
 .title {
   /*posizione e dimenzione*/
   position: absolute;

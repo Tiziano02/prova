@@ -30,6 +30,10 @@ button {
     width: 25.83vw !important;
   }
 
+  .menu>a {
+    font-size: 3.5vw !important;
+  }
+
   .logo {
     display: block !important;
     width: 22.5vw !important;
