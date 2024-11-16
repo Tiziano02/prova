@@ -1,3 +1,141 @@
+@media (max-width: 1200px) {
+
+  .content {
+    position: relative;
+
+    height: 22.44791666667vw;
+    margin-top: 10.05208333333vw;
+    margin-left: 0vw !important;
+    margin-right: 0vw !important;
+
+    display: flex;
+    align-items: center !important;
+    text-align: center !important;
+    flex-direction: column !important;
+  }
+
+  .contenitore_comfort {
+    margin-top: 106.96875vw !important;
+  }
+
+  .content_img {
+    display: none;
+  }
+
+  .content_testo {
+    height: 135vw !important;
+    width: 90vw !important;
+    text-align: justify !important;
+  }
+
+  .foto_comfort1 {
+    margin-left: 4.385417vw !important;
+  }
+
+  .foto_comfort2 {
+    top: 223.3125vw !important;
+  }
+
+  .foto_comfort3 {
+    top: 199.416667vw !important;
+    left: 83vw !important;
+  }
+
+  .pic_tv {
+    top: 213.666667vw !important;
+  }
+
+  .pic_wm {
+    top: 202.864583vw !important;
+  }
+
+  .pic_wifi {
+    top: 212.666667vw !important;
+  }
+
+  .pic_coffe {
+    top: 201.864583vw !important;
+  }
+
+  .button_comfort {
+
+    left: 33.28125vw !important;
+    width: 20.427083vw !important;
+    height: 6.0625vw !important;
+    top: 223.3125vw !important;
+  }
+
+
+  .pic_wm {
+    left: 33.1458333vw !important;
+    width: 4.96875vw !important;
+    height: 5.489583vw !important;
+  }
+
+  .pic_coffe {
+    left: 53.66666667vw !important;
+    width: 5.645833vw !important;
+    height: 6.0625vw !important;
+  }
+
+  .pic_wifi {
+    width: 5.072917vw !important;
+    height: 5.645833vw !important;
+    left: 53.77083333vw !important;
+  }
+
+  .pic_tv {
+    left: 32.885416667vw !important;
+    width: 5.4375vw !important;
+    height: 4.864583vw !important;
+  }
+
+
+  .titolo_coffe {
+    position: absolute;
+    left: 60.5141146vw !important;
+    top: 204.58224vw !important;
+
+  }
+
+  .testo_coffe {
+    left: 60.4951562vw !important;
+    top: 206.78276vw !important;
+  }
+
+  .titolo_wifi {
+    left: 60.511510416666667vw !important;
+    top: 214.841354166666667vw !important;
+  }
+
+  .testo_wifi {
+    left: 60.490677083333333vw !important;
+    top: 217.069792vw !important;
+  }
+
+  .titolo_tv {
+    left: 39.1461458vw !important;
+    top: 214.850208vw !important;
+  }
+
+  .testo_tv {
+    left: 39.1085417vw !important;
+    top: 217.029271vw !important;
+  }
+
+  .titolo_wm {
+    left: 39.1461458vw !important;
+    top: 204.850208vw !important;
+  }
+
+  .testo_wm {
+    left: 39.1513542vw !important;
+    top: 207.083385vw !important;
+  }
+
+
+}
+
 .title {
   /*posizione e dimenzione*/
   position: absolute;

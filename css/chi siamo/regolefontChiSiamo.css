@@ -1,3 +1,59 @@
+@media (max-width: 1200px) {
+  .content_testo {
+    font-size: 3.5vw !important;
+  }
+
+  .titolo_comfort {
+    font-size: 7vw !important;
+  }
+
+  .titolo_coffe {
+    font-size: 2vw !important;
+
+  }
+
+  .titolo_tv {
+    font-size: 2vw !important;
+
+  }
+
+  .titolo_wifi {
+    font-size: 2vw !important;
+
+  }
+
+  .titolo_wm {
+    font-size: 2vw !important;
+
+  }
+
+  .testo_coffe {
+    font-size: 1vw !important;
+  }
+
+  .testo_wifi {
+    font-size: 1vw !important;
+  }
+
+  .testo_tv {
+    font-size: 1vw !important;
+  }
+
+  .testo_wm {
+    font-size: 1vw !important;
+  }
+
+  .button_comfort {
+    font-size: 2vw !important;
+  }
+
+  .testo_host {
+    font-size: 3.5vw !important;
+  }
+
+}
+
+
 .menu>a {
   font-family: 'Light';
   font-size:
