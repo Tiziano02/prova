@@ -119,6 +119,28 @@ body {
     /*67px*/
   }
 
+  element.style {
+    height: 400px;
+  }
+
+  .carousel.carousel-slider {
+    top: 0;
+    left: 0;
+  }
+
+  .carousel {
+    overflow: visible !important;
+    position: relative;
+    width: 100%;
+    height: 100vw !important;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+  }
+
 }
 
 .content {
