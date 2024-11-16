@@ -1,10 +1,13 @@
-@media (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .menu>a {
     font-size: 3vw !important;
   }
 
+
+
   .testo_text_content {
-    font-size: 2vw !important;
+    font-size: 3vw !important;
+    color: red;
   }
 }
 
