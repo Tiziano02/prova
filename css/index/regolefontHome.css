@@ -36,6 +36,7 @@
   }
 
   .text_under_banner {
+    width: auto !important;
     font-size: 3.5vw !important;
     margin-top: 10vw !important;
     text-align: justify !important;
