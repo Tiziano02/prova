@@ -1,4 +1,10 @@
 @media (max-width: 1200px) {
+
+  .title {
+    font-size: 15vw !important;
+    margin-top: 10vw !important;
+  }
+
   .content_testo {
     font-size: 3.5vw !important;
   }
